@@ -54,4 +54,5 @@ mybatis:
   configuration:
     call-setters-on-nulls: true
 
-htmlpath: http://localhost:8080d
+htmlpath: http://localhost:8080
+name: ssxu
