@@ -1,5 +1,7 @@
 server:
-  port: 8080
+  # port: 8080
+  # 8889
+  port: {cipher}b177cfbafc485cda37b10e8019b90c2aa495da244f2b780fcfc4c6d7ccbeee3b
 
 spring:
   application:
