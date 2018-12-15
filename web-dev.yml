@@ -60,4 +60,4 @@ mybatis:
     call-setters-on-nulls: true
 
 htmlpath: http://localhost:8080
-name: 徐石森dddd
+name: 徐石森
