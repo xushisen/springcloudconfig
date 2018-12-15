@@ -8,7 +8,7 @@ spring:
     host: 192.168.1.41
     port: 5672
     username: '{cipher}d17903f286634b94f1b2dbceb2e8f656527270a83dcbd45e1fd1c416a5d55b5f'
-    password: '{cipher}d17903f286634b94f1b2dbceb2e8f656527270a83dcbd45e1fd1c416a5d55b5f
+    password: '{cipher}d17903f286634b94f1b2dbceb2e8f656527270a83dcbd45e1fd1c416a5d55b5f'
   application:
     name: web
   # freemarker 配置
