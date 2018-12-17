@@ -14,6 +14,8 @@ zuul:
     web:
       path: /web/**
       serviceId: web
+      # 客户端配置context-path   的时候设置这个属性为false
+      strip-prefix: false
     consumer:
       path: /consumer/**
       serviceId: consumer
