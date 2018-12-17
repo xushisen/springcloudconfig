@@ -14,7 +14,8 @@ zuul:
     web:
       path: /web/**
       serviceId: web
-      # 客户端配置context-path   的时候设置这个属性为false
+      # 加上这个访问的时候直接吧web就去掉了,转发地址直接就是zuul的地址加上后面的地址
+      # 不false  localhost:5000/web/user/getName  后localhost:5000/user/getName 
       strip-prefix: false
     consumer:
       path: /consumer/**
