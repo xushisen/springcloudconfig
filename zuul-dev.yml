@@ -16,7 +16,7 @@ zuul:
       serviceId: web
       # 前缀  false 没有前缀 写了前缀就地址就必须带上这个前缀
       # 不false  localhost:5000/web/user/getName  后localhost:5000/user/getName 
-      strip-prefix: false
+      # strip-prefix: false
     consumer:
       path: /consumer/**
       serviceId: consumer
